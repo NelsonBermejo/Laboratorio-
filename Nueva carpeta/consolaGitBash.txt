@@ -1,0 +1,123 @@
+PC2@PC2-PC MINGW32 ~/Desktop/P
+$ git clone https://github.com/NelsonBermejo/Laboratorio-.git
+Cloning into 'Laboratorio-'...
+remote: Counting objects: 103, done.
+remote: Compressing objects: 100% (52/52), done.
+remote: Total 103 (delta 50), reused 99 (delta 50), pack-reused 0
+Receiving objects: 100% (103/103), 13.15 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (50/50), done.
+
+PC2@PC2-PC MINGW32 ~/Desktop/P
+$ cd Laboratorio/
+bash: cd: Laboratorio/: No such file or directory
+
+PC2@PC2-PC MINGW32 ~/Desktop/P
+$ cd Laboratorio-/
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$ ls
+'Ejer 20'/       'Ejercicio 15'/  'Ejercicio 22'/  'Ejercicio 8'/
+'Ejercicio 1'/   'Ejercicio 16'/  'Ejercicio 23'/  'Ejercicio 9'/
+'Ejercicio 10'/  'Ejercicio 18'/  'Ejercicio 3'/   'Nueva carpeta'/
+'Ejercicio 11'/  'Ejercicio 19'/  'Ejercicio 4'/    README.md
+'Ejercicio 12'/  'Ejercicio 2'/   'Ejercicio 5'/
+'Ejercicio 13'/  'Ejercicio 20'/  'Ejercicio 6'/
+'Ejercicio 14'/  'Ejercicio 21'/  'Ejercicio 7'/
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$ git add -A+
+error: unknown switch `+'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no                                -all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of error                                s
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$ git add -A
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Nueva carpeta/jj.txt
+
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$ git commit -m "Initial Commit"
+[master 2683d05] Initial Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Nueva carpeta/jj.txt
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$ git log
+commit 2683d0516c0450113b730d408d2a3686ba4aa375
+Author: Ice <infoneilnelson@gmail.com>
+Date:   Mon Sep 11 14:10:33 2017 -0300
+
+    Initial Commit
+
+commit 23f1514121b8ddbec726ac9c1f8235ac93b31c9a
+Author: Nelson Bermejo <nelsonbermejo@outlook.com.ar>
+Date:   Fri Aug 25 01:30:55 2017 -0300
+
+    Ejercicios
+
+commit 79348435f0ffb23643c67bc3efdbdeed285e9e2c
+Author: NelsonBermejo <nelsonbermejo@outlook.com.ar>
+Date:   Fri Aug 25 01:14:08 2017 -0300
+
+    Initial commit
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 327 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/NelsonBermejo/Laboratorio-.git
+   23f1514..2683d05  master -> master
+
+PC2@PC2-PC MINGW32 ~/Desktop/P/Laboratorio- (master)
+$
+
+
+
+
+
+CONSOLA GITBASH
+
+
+
+https://www.youtube.com/watch?v=bknZdA0ckHw
+
+
+
+
+
+
+
+
+
+
+
+
+
