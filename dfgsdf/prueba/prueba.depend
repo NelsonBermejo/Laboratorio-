@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1506387373 source:c:\users\alumno\desktop\dfgsdf\prueba\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"lib.h"
+
+1506387373 c:\users\alumno\desktop\dfgsdf\prueba\lib.h
+
+1506386014 source:c:\users\alumno\desktop\dfgsdf\prueba\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"lib.h"
+
